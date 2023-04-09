@@ -40,3 +40,7 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 -- 
+select 
+k0, c16
+from tbl1
+where substr(k0,1,1) = substr(c16,1,1)
